@@ -1,6 +1,4 @@
-[![monolith build status on GNU/Linux](https://github.com/Y2Z/monolith/workflows/GNU%2FLinux/badge.svg)](https://github.com/Y2Z/monolith/actions?query=workflow%3AGNU%2FLinux)
-[![monolith build status on macOS](https://github.com/Y2Z/monolith/workflows/macOS/badge.svg)](https://github.com/Y2Z/monolith/actions?query=workflow%3AmacOS)
-[![monolith build status on Windows](https://github.com/Y2Z/monolith/workflows/Windows/badge.svg)](https://github.com/Y2Z/monolith/actions?query=workflow%3AWindows)
+Forked verison of Monolith - Currently Testing
 
 ```
  _____     ______________    __________      ___________________    ___
@@ -24,50 +22,6 @@ If compared to saving websites with `wget -mpk`, this tool embeds all assets as 
 
 ## Installation
 
-#### Using [Cargo](https://crates.io/crates/monolith)
-
-```console
-cargo install monolith
-```
-
-#### Via [Homebrew](https://formulae.brew.sh/formula/monolith) (macOS and GNU/Linux)
-
-```console
-brew install monolith
-```
-
-#### Via [MacPorts](https://ports.macports.org/port/monolith/summary) (macOS)
-
-```console
-sudo port install monolith
-```
-
-#### Using [Snapcraft](https://snapcraft.io/monolith) (GNU/Linux)
-
-```console
-snap install monolith
-```
-
-#### Using [FreeBSD packages](https://svnweb.freebsd.org/ports/head/www/monolith/) (FreeBSD)
-
-```console
-pkg install monolith
-```
-
-#### Using [FreeBSD ports](https://www.freshports.org/www/monolith/) (FreeBSD)
-
-```console
-cd /usr/ports/www/monolith/
-make install clean
-```
-
-#### Using [pkgsrc](https://pkgsrc.se/www/monolith) (NetBSD, OpenBSD, Haiku, etc)
-
-```console
-cd /usr/pkgsrc/www/monolith
-make install clean
-```
-
 #### Using [containers](https://www.docker.com/)
 
 ```console
@@ -84,11 +38,6 @@ git clone https://github.com/Y2Z/monolith.git
 cd monolith
 make install
 ```
-
-#### Using [pre-built binaries](https://github.com/Y2Z/monolith/releases) (Windows, ARM-based devices, etc)
-
-Every release contains pre-built binaries for Windows, GNU/Linux, as well as platforms with non-standart CPU architecture.
-
 
 ---------------------------------------------------
 
